@@ -30,6 +30,9 @@ body {
 }
 
 .container .task-box .task-entry {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .container .task-box .task-entry .task-input {
