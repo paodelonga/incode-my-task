@@ -39,17 +39,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 52px;
 }
 
 .container .task-box .task-entry .task-input {
   background-color: #FFFFFE;
   color: #000000;
+  width: 452px;
   border: 3px solid #4392F1;
 }
 
 .container .task-box .task-entry .task-submit {
   background-color: #4392F1;
   color: #FFFFFE;
+  width: 52px;
 }
 
 .container .task-box .task-list {
