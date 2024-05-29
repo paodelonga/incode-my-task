@@ -27,6 +27,7 @@ body {
 }
 
 .container .task-box {
+  background-color: #242529;
 }
 
 .container .task-box .task-entry {
@@ -36,10 +37,17 @@ body {
 }
 
 .container .task-box .task-entry .task-input {
+  background-color: #FFFFFE;
+  color: #000000;
+  border: 3px solid #4392F1;
 }
 
 .container .task-box .task-entry .task-submit {
+  background-color: #4392F1;
+  color: #FFFFFE;
 }
 
 .container .task-box .task-list {
+  background-color: transparent;
+  color: #FFFFFE;
 }
