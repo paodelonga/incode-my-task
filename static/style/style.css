@@ -77,10 +77,15 @@ body {
   color: #FFFFFE;
   width: 52px;
   border-radius: 12px;
+  font-size: 24px;
 }
 
 .container .task-box .task-list {
   background-color: transparent;
   color: #FFFFFE;
   padding: 32px;
+  font-family: 'Comic Neue';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5
 }
