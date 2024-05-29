@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Comic Neue';
+  src: local('Comic Neue Regular'), local('ComicNeue-Regular'),
+  url('fonts/ComicNeue-Regular.woff2') format('woff2'),
+  url('fonts/ComicNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comic Neue';
+  src: local('Comic Neue Bold'), local('ComicNeue-Bold'),
+  url('fonts/ComicNeue-Bold.woff2') format('woff2'),
+  url('fonts/ComicNeue-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -57,10 +77,15 @@ body {
   color: #FFFFFE;
   width: 52px;
   border-radius: 12px;
+  font-size: 24px;
 }
 
 .container .task-box .task-list {
   background-color: transparent;
   color: #FFFFFE;
   padding: 32px;
+  font-family: 'Comic Neue';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.5
 }
