@@ -29,6 +29,8 @@ body {
 
 .container .task-box {
   background-color: #242529;
+  width: 580px;
+  height: 320px;
 }
 
 .container .task-box .task-entry {
