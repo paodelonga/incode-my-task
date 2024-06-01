@@ -1,91 +1,91 @@
 @font-face {
-  font-family: 'Comic Neue';
-  src: local('Comic Neue Regular'), local('ComicNeue-Regular'),
-  url('fonts/ComicNeue-Regular.woff2') format('woff2'),
-  url('fonts/ComicNeue-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Comic Neue';
+    src: local('Comic Neue Regular'), local('ComicNeue-Regular'),
+    url('fonts/ComicNeue-Regular.woff2') format('woff2'),
+    url('fonts/ComicNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
-  font-family: 'Comic Neue';
-  src: local('Comic Neue Bold'), local('ComicNeue-Bold'),
-  url('fonts/ComicNeue-Bold.woff2') format('woff2'),
-  url('fonts/ComicNeue-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
+    font-family: 'Comic Neue';
+    src: local('Comic Neue Bold'), local('ComicNeue-Bold'),
+    url('fonts/ComicNeue-Bold.woff2') format('woff2'),
+    url('fonts/ComicNeue-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .container .logo {
-  margin: 16px;
+    margin: 16px;
 }
 
 .container .task-box {
-  background-color: #242529;
-  width: 580px;
-  height: 320px;
-  padding: 32px;
-  border-radius: 24px;
-  box-sizing: border-box;
-  box-shadow: 8px 8px 64px 4px #00000033;
+    background-color: #242529;
+    width: 580px;
+    height: 320px;
+    padding: 32px;
+    border-radius: 24px;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 64px 4px #00000033;
 }
 
 .container .task-box .task-entry {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 52px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 52px;
 }
 
 .container .task-box .task-entry .task-input {
-  background-color: #FFFFFE;
-  color: #000000;
-  width: 452px;
-  border: 3px solid #4392F1;
-  border-radius: 12px;
+    background-color: #FFFFFE;
+    color: #000000;
+    width: 452px;
+    border: 3px solid #4392F1;
+    border-radius: 12px;
 }
 
 .container .task-box .task-entry .task-submit {
-  background-color: #4392F1;
-  color: #FFFFFE;
-  width: 52px;
-  border-radius: 12px;
-  font-size: 24px;
+    background-color: #4392F1;
+    color: #FFFFFE;
+    width: 52px;
+    border-radius: 12px;
+    font-size: 24px;
 }
 
 .container .task-box .task-list {
-  background-color: transparent;
-  color: #FFFFFE;
-  padding: 32px;
-  font-family: 'Comic Neue';
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 1.5
+    background-color: transparent;
+    color: #FFFFFE;
+    padding: 32px;
+    font-family: 'Comic Neue';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5
 }
